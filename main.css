@@ -1,0 +1,61 @@
+.mainDiv{
+  margin-top: 50px;
+background: #A2AB58;
+display: flex;
+justify-content:space-around;
+height: 300px;
+
+
+}
+.sub1{
+  background:  #ff9933
+  ;
+  border-radius: 10px;
+  box-shadow:  2px 5px 5px 2px ;
+height:250px;
+margin-top: .5cm
+}
+.sub2{
+  background: #E44424;
+border-radius: 10px;
+box-shadow: 2px 5px 5px 2px ;
+height: 250px;
+margin-top: .5cm;
+}
+
+.sub3{
+  background: green;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px 2px;
+  height: 250px;
+  margin-top: .5cm;
+}
+
+body{
+  background: #67BCDB;
+}
+
+.image1{
+  border-radius: 10px;
+  padding :3px;
+  height:180px;
+  width: 180px;
+}
+.image2{
+  border-radius: 10px;
+  padding:  3px;
+  height:180px;
+  width: 180px;
+}
+.image3{
+  border-radius: 10px;
+  padding :3px;
+  height:180px;
+  width: 180px;
+}
+@media all and ( max-width:768px) {
+  body{
+    background: pink;
+  }
+
+}
