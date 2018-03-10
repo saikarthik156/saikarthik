@@ -1,0 +1,60 @@
+.mainDiv{
+  display: flex;
+justify-content: space-between;
+background: #A8CD1B;
+}
+.leftDiv{
+  background: #E44424;
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  margin:0px;
+}
+.rightDiv{
+  margin-left: 26%;
+  background: #E9E581;
+  width: 75%;
+  padding: 10%;
+}
+.img{
+  border-radius: 10px;
+  padding :3px;
+  height:180px;
+  width: 180px;
+}
+.lchlid{
+  text-align: center;
+  margin-top: 10px;
+}
+@media all and ( max-width:768px) {
+  body{
+    background: yellow;
+  }
+.mainDiv{
+  width: 100%;
+  flex-wrap: wrap;
+}
+.leftDiv{
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.rightDiv{
+  width: 100%;
+  margin-left: 0%;
+}
+
+
+
+}
+@media all and (min-width:360px) and (max-width:500px) {
+  .mainDiv{
+    background: #addeea;
+    width:100%;
+  }
+  .leftDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
